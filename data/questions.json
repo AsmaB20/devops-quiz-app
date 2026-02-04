@@ -63,6 +63,138 @@
       ],
       "answerIndex": 2,
       "explanation": "DevOps promotes continuous improvement and learning."
-    }
+    },
+    {
+        "id": "Q6",
+        "topic": "Version Control Systems",
+        "question": "What is a distributed version control system?",
+        "options": [
+          "A system with only one central repository",
+          "A system where each developer has a full copy of the repository",
+          "A system without history tracking",
+          "A system used only for backups"
+        ],
+        "answerIndex": 1,
+        "explanation": "In DVCS like Git, each developer has a complete local repository."
+      },
+      {
+        "id": "Q7",
+        "topic": "Version Control Systems",
+        "question": "What is the purpose of branching in Git?",
+        "options": [
+          "Delete old code",
+          "Work on features independently",
+          "Deploy directly to production",
+          "Avoid merge conflicts"
+        ],
+        "answerIndex": 1,
+        "explanation": "Branches allow parallel development without affecting the main codebase."
+      },
+      {
+        "id": "Q8",
+        "topic": "Version Control Systems",
+        "question": "What does a commit represent in Git?",
+        "options": [
+          "A backup of the entire system",
+          "A snapshot of changes",
+          "A deployment action",
+          "A merge conflict"
+        ],
+        "answerIndex": 1,
+        "explanation": "A commit records a snapshot of changes in the repository."
+      },
+      {
+        "id": "Q9",
+        "topic": "Version Control Systems",
+        "question": "Why are meaningful commit messages important?",
+        "options": [
+          "They increase repository size",
+          "They help understand project history",
+          "They replace documentation",
+          "They prevent conflicts"
+        ],
+        "answerIndex": 1,
+        "explanation": "Clear commit messages help track changes and understand intent."
+      },
+      {
+        "id": "Q10",
+        "topic": "Version Control Systems",
+        "question": "What is a Pull Request used for?",
+        "options": [
+          "Deleting branches",
+          "Requesting code review and integration",
+          "Running automated tests",
+          "Cloning repositories"
+        ],
+        "answerIndex": 1,
+        "explanation": "Pull Requests enable review, discussion, and controlled merging of code."
+      },
+      {
+        "id": "Q11",
+        "topic": "Continuous Integration",
+        "question": "What is Continuous Integration?",
+        "options": [
+          "Deploying code manually",
+          "Frequently integrating code into a shared repository",
+          "Skipping testing",
+          "Developing without version control"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI involves frequent integration to detect issues early."
+      },
+      {
+        "id": "Q12",
+        "topic": "Continuous Integration",
+        "question": "Which activity is typically automated in CI?",
+        "options": [
+          "Code reviews",
+          "Building and testing",
+          "Requirement gathering",
+          "User training"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI automates builds and tests to ensure code quality."
+      },
+      {
+        "id": "Q13",
+        "topic": "Continuous Integration",
+        "question": "What is the main benefit of CI?",
+        "options": [
+          "Faster feedback on code changes",
+          "Eliminating bugs completely",
+          "Removing the need for developers",
+          "Avoiding documentation"
+        ],
+        "answerIndex": 0,
+        "explanation": "CI provides rapid feedback to catch integration problems early."
+      },
+      {
+        "id": "Q14",
+        "topic": "Continuous Integration",
+        "question": "How often should developers commit code in CI?",
+        "options": [
+          "Once per month",
+          "Only at project end",
+          "Frequently",
+          "Only after deployment"
+        ],
+        "answerIndex": 2,
+        "explanation": "Frequent commits reduce integration complexity."
+      },
+      {
+        "id": "Q15",
+        "topic": "Continuous Integration",
+        "question": "What usually triggers a CI pipeline?",
+        "options": [
+          "System shutdown",
+          "Code commit or pull request",
+          "User login",
+          "Manual approval only"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI pipelines are commonly triggered by code changes."
+      }
+      
+      
   ]
   
