@@ -193,7 +193,73 @@
         ],
         "answerIndex": 1,
         "explanation": "CI pipelines are commonly triggered by code changes."
+      },
+      {
+        "id": "Q16",
+        "topic": "Continuous Delivery",
+        "question": "What is Continuous Delivery?",
+        "options": [
+          "Automatically deploying every change",
+          "Keeping software deployable at all times",
+          "Skipping testing phases",
+          "Manual release only"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Delivery ensures software is always in a deployable state."
+      },
+      {
+        "id": "Q17",
+        "topic": "Continuous Deployment",
+        "question": "How does Continuous Deployment differ from Continuous Delivery?",
+        "options": [
+          "It requires manual approval",
+          "It automatically deploys changes to production",
+          "It skips automation",
+          "It avoids testing"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Deployment automatically releases every successful change."
+      },
+      {
+        "id": "Q18",
+        "topic": "Infrastructure as Code",
+        "question": "What is Infrastructure as Code?",
+        "options": [
+          "Managing infrastructure manually",
+          "Provisioning infrastructure using code",
+          "Writing application code only",
+          "Avoiding automation"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC uses code to define and manage infrastructure."
+      },
+      {
+        "id": "Q19",
+        "topic": "Infrastructure as Code",
+        "question": "What is a benefit of Infrastructure as Code?",
+        "options": [
+          "Slower deployments",
+          "Configuration drift",
+          "Repeatable and consistent environments",
+          "More manual work"
+        ],
+        "answerIndex": 2,
+        "explanation": "IaC ensures consistent and repeatable infrastructure setups."
+      },
+      {
+        "id": "Q20",
+        "topic": "Continuous Deployment",
+        "question": "What must be strong before using Continuous Deployment?",
+        "options": [
+          "Manual testing only",
+          "Automated testing and monitoring",
+          "No version control",
+          "Single developer teams"
+        ],
+        "answerIndex": 1,
+        "explanation": "Strong automated testing and monitoring are critical for safe deployments."
       }
+      
       
       
   ]
