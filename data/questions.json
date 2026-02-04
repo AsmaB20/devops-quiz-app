@@ -193,6 +193,7 @@
         ],
         "answerIndex": 1,
         "explanation": "CI pipelines are commonly triggered by code changes."
+
       },
       {
         "id": "Q16",
@@ -258,9 +259,7 @@
         ],
         "answerIndex": 1,
         "explanation": "Strong automated testing and monitoring are critical for safe deployments."
-      }
+      }      
       
-      
-      
-  ]
+ ]
   
