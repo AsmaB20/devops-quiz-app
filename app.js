@@ -1,4 +1,6 @@
 let questions = []
+let currentQuestions = []
+let currentIndex = 0
 
 fetch("data/questions.json")
   .then(response => response.json())
@@ -27,20 +29,23 @@ function loadTopics() {
 
 document.getElementById("topicSelect").addEventListener("change", function () {
   let selectedTopic = this.value
-  let filtered = []
+  currentQuestions = []
+  currentIndex = 0
 
   for (let i = 0; i < questions.length; i++) {
     if (questions[i].topic === selectedTopic) {
-      filtered.push(questions[i])
+      currentQuestions.push(questions[i])
     }
   }
 
-  showQuestion(filtered[0])
+  showQuestion()
 })
 
-function showQuestion(q) {
+function showQuestion() {
   let quizDiv = document.getElementById("quiz")
   quizDiv.innerHTML = ""
+
+  let q = currentQuestions[currentIndex]
 
   let question = document.createElement("h3")
   question.textContent = q.question
@@ -50,14 +55,15 @@ function showQuestion(q) {
     let btn = document.createElement("button")
     btn.textContent = q.options[i]
     btn.onclick = function () {
-      checkAnswer(i, q)
+      checkAnswer(i)
     }
     quizDiv.appendChild(btn)
   }
 }
 
-function checkAnswer(index, q) {
+function checkAnswer(index) {
   let quizDiv = document.getElementById("quiz")
+  let q = currentQuestions[currentIndex]
 
   let result = document.createElement("p")
 
@@ -68,4 +74,18 @@ function checkAnswer(index, q) {
   }
 
   quizDiv.appendChild(result)
+
+  let nextBtn = document.createElement("button")
+  nextBtn.textContent = "Next Question"
+  nextBtn.onclick = function () {
+    currentIndex++
+
+    if (currentIndex < currentQuestions.length) {
+      showQuestion()
+    } else {
+      quizDiv.innerHTML = "Topic completed 🎉"
+    }
+  }
+
+  quizDiv.appendChild(nextBtn)
 }
