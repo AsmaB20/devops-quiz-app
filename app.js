@@ -55,3 +55,17 @@ function showQuestion(q) {
     quizDiv.appendChild(btn)
   }
 }
+
+function checkAnswer(index, q) {
+  let quizDiv = document.getElementById("quiz")
+
+  let result = document.createElement("p")
+
+  if (index === q.answerIndex) {
+    result.textContent = "Correct! " + q.explanation
+  } else {
+    result.textContent = "Wrong. " + q.explanation
+  }
+
+  quizDiv.appendChild(result)
+}
