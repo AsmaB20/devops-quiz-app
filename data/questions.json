@@ -1,0 +1,265 @@
+[
+    {
+      "id": "Q1",
+      "topic": "DevOps Culture",
+      "question": "What is the primary goal of DevOps?",
+      "options": [
+        "Increase documentation",
+        "Improve collaboration between development and operations",
+        "Eliminate testing",
+        "Replace developers with automation"
+      ],
+      "answerIndex": 1,
+      "explanation": "DevOps focuses on improving collaboration, communication, and shared responsibility."
+    },
+    {
+      "id": "Q2",
+      "topic": "DevOps Culture",
+      "question": "Which practice best supports a DevOps culture?",
+      "options": [
+        "Siloed teams",
+        "Blame-driven problem solving",
+        "Shared ownership of failures",
+        "Manual deployments only"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps encourages shared responsibility and learning from failures."
+    },
+    {
+      "id": "Q3",
+      "topic": "DevOps Culture",
+      "question": "What does the term 'shift left' mean in DevOps?",
+      "options": [
+        "Delaying testing until production",
+        "Moving testing and security earlier in development",
+        "Reducing team size",
+        "Removing automation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shift left means addressing quality and security earlier in the development lifecycle."
+    },
+    {
+      "id": "Q4",
+      "topic": "DevOps Culture",
+      "question": "Why is feedback important in DevOps?",
+      "options": [
+        "It slows development",
+        "It helps teams improve continuously",
+        "It replaces automation",
+        "It eliminates monitoring"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fast feedback allows teams to detect issues early and continuously improve."
+    },
+    {
+      "id": "Q5",
+      "topic": "DevOps Culture",
+      "question": "Which value is central to DevOps?",
+      "options": [
+        "Secrecy",
+        "Competition between teams",
+        "Continuous improvement",
+        "Rigid processes"
+      ],
+      "answerIndex": 2,
+      "explanation": "DevOps promotes continuous improvement and learning."
+    },
+    {
+        "id": "Q6",
+        "topic": "Version Control Systems",
+        "question": "What is a distributed version control system?",
+        "options": [
+          "A system with only one central repository",
+          "A system where each developer has a full copy of the repository",
+          "A system without history tracking",
+          "A system used only for backups"
+        ],
+        "answerIndex": 1,
+        "explanation": "In DVCS like Git, each developer has a complete local repository."
+      },
+      {
+        "id": "Q7",
+        "topic": "Version Control Systems",
+        "question": "What is the purpose of branching in Git?",
+        "options": [
+          "Delete old code",
+          "Work on features independently",
+          "Deploy directly to production",
+          "Avoid merge conflicts"
+        ],
+        "answerIndex": 1,
+        "explanation": "Branches allow parallel development without affecting the main codebase."
+      },
+      {
+        "id": "Q8",
+        "topic": "Version Control Systems",
+        "question": "What does a commit represent in Git?",
+        "options": [
+          "A backup of the entire system",
+          "A snapshot of changes",
+          "A deployment action",
+          "A merge conflict"
+        ],
+        "answerIndex": 1,
+        "explanation": "A commit records a snapshot of changes in the repository."
+      },
+      {
+        "id": "Q9",
+        "topic": "Version Control Systems",
+        "question": "Why are meaningful commit messages important?",
+        "options": [
+          "They increase repository size",
+          "They help understand project history",
+          "They replace documentation",
+          "They prevent conflicts"
+        ],
+        "answerIndex": 1,
+        "explanation": "Clear commit messages help track changes and understand intent."
+      },
+      {
+        "id": "Q10",
+        "topic": "Version Control Systems",
+        "question": "What is a Pull Request used for?",
+        "options": [
+          "Deleting branches",
+          "Requesting code review and integration",
+          "Running automated tests",
+          "Cloning repositories"
+        ],
+        "answerIndex": 1,
+        "explanation": "Pull Requests enable review, discussion, and controlled merging of code."
+      },
+      {
+        "id": "Q11",
+        "topic": "Continuous Integration",
+        "question": "What is Continuous Integration?",
+        "options": [
+          "Deploying code manually",
+          "Frequently integrating code into a shared repository",
+          "Skipping testing",
+          "Developing without version control"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI involves frequent integration to detect issues early."
+      },
+      {
+        "id": "Q12",
+        "topic": "Continuous Integration",
+        "question": "Which activity is typically automated in CI?",
+        "options": [
+          "Code reviews",
+          "Building and testing",
+          "Requirement gathering",
+          "User training"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI automates builds and tests to ensure code quality."
+      },
+      {
+        "id": "Q13",
+        "topic": "Continuous Integration",
+        "question": "What is the main benefit of CI?",
+        "options": [
+          "Faster feedback on code changes",
+          "Eliminating bugs completely",
+          "Removing the need for developers",
+          "Avoiding documentation"
+        ],
+        "answerIndex": 0,
+        "explanation": "CI provides rapid feedback to catch integration problems early."
+      },
+      {
+        "id": "Q14",
+        "topic": "Continuous Integration",
+        "question": "How often should developers commit code in CI?",
+        "options": [
+          "Once per month",
+          "Only at project end",
+          "Frequently",
+          "Only after deployment"
+        ],
+        "answerIndex": 2,
+        "explanation": "Frequent commits reduce integration complexity."
+      },
+      {
+        "id": "Q15",
+        "topic": "Continuous Integration",
+        "question": "What usually triggers a CI pipeline?",
+        "options": [
+          "System shutdown",
+          "Code commit or pull request",
+          "User login",
+          "Manual approval only"
+        ],
+        "answerIndex": 1,
+        "explanation": "CI pipelines are commonly triggered by code changes."
+
+      },
+      {
+        "id": "Q16",
+        "topic": "Continuous Delivery",
+        "question": "What is Continuous Delivery?",
+        "options": [
+          "Automatically deploying every change",
+          "Keeping software deployable at all times",
+          "Skipping testing phases",
+          "Manual release only"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Delivery ensures software is always in a deployable state."
+      },
+      {
+        "id": "Q17",
+        "topic": "Continuous Deployment",
+        "question": "How does Continuous Deployment differ from Continuous Delivery?",
+        "options": [
+          "It requires manual approval",
+          "It automatically deploys changes to production",
+          "It skips automation",
+          "It avoids testing"
+        ],
+        "answerIndex": 1,
+        "explanation": "Continuous Deployment automatically releases every successful change."
+      },
+      {
+        "id": "Q18",
+        "topic": "Infrastructure as Code",
+        "question": "What is Infrastructure as Code?",
+        "options": [
+          "Managing infrastructure manually",
+          "Provisioning infrastructure using code",
+          "Writing application code only",
+          "Avoiding automation"
+        ],
+        "answerIndex": 1,
+        "explanation": "IaC uses code to define and manage infrastructure."
+      },
+      {
+        "id": "Q19",
+        "topic": "Infrastructure as Code",
+        "question": "What is a benefit of Infrastructure as Code?",
+        "options": [
+          "Slower deployments",
+          "Configuration drift",
+          "Repeatable and consistent environments",
+          "More manual work"
+        ],
+        "answerIndex": 2,
+        "explanation": "IaC ensures consistent and repeatable infrastructure setups."
+      },
+      {
+        "id": "Q20",
+        "topic": "Continuous Deployment",
+        "question": "What must be strong before using Continuous Deployment?",
+        "options": [
+          "Manual testing only",
+          "Automated testing and monitoring",
+          "No version control",
+          "Single developer teams"
+        ],
+        "answerIndex": 1,
+        "explanation": "Strong automated testing and monitoring are critical for safe deployments."
+      }      
+      
+ ]
+  
